@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #FEFAE0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.profile-img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.profile-img:hover {
+    transform: scale(1.1); 
+}
+
+
+.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #B99470;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #F6FCDF ;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color:  #B99470;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #B99470;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #B99470;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar a:hover {
+    color: #FEFAE0;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    background-color: #A6B37D;
+}
+
+.footer p {
+    color: #FEFAE0;
+    font-size: 14px;
+    margin: 0;
+}
